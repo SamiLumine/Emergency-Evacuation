@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Evacuation exercise.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  m_configObjects:
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 278ac311631815b44bd87dc8cdbcca7f,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 0729041b3d8c9c74bbe0aa7f92eebbf1,
+      type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 9b3fc85d1ecc9d54780dca00ade9866e,
+      type: 2}
+  m_UseUCBPForAssetBundles: 0
