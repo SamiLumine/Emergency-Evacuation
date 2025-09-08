@@ -7,9 +7,11 @@ using UnityEngine.U2D;
 
 public class Scale_AllRooms : MonoBehaviour
 {
+    [Tooltip("Reference to the Floor_Plane object used to detect the current AR floor")]
     [SerializeField]
     private Floor_Plane _floorPlane;
 
+    [Tooltip("Reference to the Player_Room script used to set the player's current room")]
     [SerializeField]
     private Player_Room _playerRoom;
 

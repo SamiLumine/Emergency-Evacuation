@@ -9,9 +9,11 @@ public class TogglePauseScreen : MonoBehaviour
     private static bool _menuActivated = false;
     private static UnityEvent<bool> _pauseToggled = new UnityEvent<bool>();
 
+    [Tooltip("Input Action used to toggle the pause screen on and off")]
     [SerializeField]
     private InputActionReference _pauseScreenAction;
 
+    [Tooltip("Reference to the GameObject that represents the pause screen UI")]
     [SerializeField]
     private GameObject _pauseScreen;
 

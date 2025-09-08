@@ -5,6 +5,9 @@ public class Graph_link : MonoBehaviour
 {
     private static float _weightDistanceFactor = 1f;
 
+    [Tooltip("If true, all link weights between doors will be set to 0. " +
+           "This should be used for the Exit GameObject, where all exit doors are placed. " +
+           "Otherwise, weights are calculated based on the distance between doors.")]
     [SerializeField]
     private bool _isWeightNull = false;
 

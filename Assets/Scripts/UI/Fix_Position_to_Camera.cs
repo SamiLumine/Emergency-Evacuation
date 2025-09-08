@@ -2,9 +2,11 @@ using UnityEngine;
 
 public class Fix_Position_to_Camera : MonoBehaviour
 {
+    [Tooltip("Reference to the Camera object. The UI will be positioned relative to this camera")]
     [SerializeField]
     private Camera _camera;
 
+    [Tooltip("Distance in front of the camera where the object will be placed")]
     [SerializeField]
     [Range(0f, 1f)]
     private float _distance = 0.5f;

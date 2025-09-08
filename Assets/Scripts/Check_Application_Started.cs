@@ -3,6 +3,7 @@ using UnityEngine.Events;
 
 public class Check_Application_Started : MonoBehaviour
 {
+    [Tooltip("Reference to the main Camera used to detect if the application has started (movement check)")]
     [SerializeField]
     Camera _camera;
 

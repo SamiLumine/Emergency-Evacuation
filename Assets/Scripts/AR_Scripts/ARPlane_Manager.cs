@@ -5,17 +5,14 @@ using UnityEngine.XR.ARSubsystems;
 
 public class ARPlane_Manager : MonoBehaviour
 {
+    [Tooltip("Material applied to detected floor planes")]
     [SerializeField]
     Material _planeMaterial;
-
-    [SerializeField]
-    Material _defaultPlaneMaterial;
 
     private ARPlaneManager _planeManager;
     private List<GameObject> _FloorPlanes = new List<GameObject>();
     private bool _planeVisibility = false;
     private List<Material> _materialsFloor = new List<Material>();
-    private List<Material> _materialsDefault = new List<Material>();
 
     void Start()
     {
@@ -23,7 +20,6 @@ public class ARPlane_Manager : MonoBehaviour
 
         _planeManager.trackablesChanged.AddListener(OnPlanesChanged);
         _materialsFloor.Add(_planeMaterial);
-        _materialsDefault.Add(_defaultPlaneMaterial);
     }
 
     private void OnDestroy()

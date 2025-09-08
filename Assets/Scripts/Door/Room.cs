@@ -2,9 +2,11 @@ using UnityEngine;
 
 public class Room : MonoBehaviour
 {
+    [Tooltip("Name of the room (for identification purposes)")]
     [SerializeField]
     private string _name;
 
+    [Tooltip("Doors associated with this room (assign all Door components connected to this room)")]
     [SerializeField]
     private Door[] _doors;
 

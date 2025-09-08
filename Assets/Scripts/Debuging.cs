@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class Debuging : MonoBehaviour
 {
+    [Tooltip("Check this to enable debug mode. If enabled, debug tools will be displayed in the pause menu")]
     [SerializeField]
     private bool _inDebug;
     

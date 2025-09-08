@@ -3,15 +3,19 @@ using UnityEngine;
 
 public class Player_Room : MonoBehaviour
 {
+    [Tooltip("Material applied to doors when they are in their normal state (not in current room)")]
     [SerializeField]
     private Material _normalMaterial;
 
+    [Tooltip("Material applied to doors of the current room the player is in")]
     [SerializeField]
     private Material _inRoomMaterial;
 
+    [Tooltip("Material applied to exit doors")]
     [SerializeField]
     private Material _exitMaterial;
 
+    [Tooltip("Reference to the Player_evacuation script, used to update the next door to use")]
     [SerializeField]
     private Player_evacuation _playerEvacuation;
 

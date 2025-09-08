@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class Pause_Screen_Selection : MonoBehaviour
 {
+    [Tooltip("Reference to the GameObject that represents the first pause screen UI to display")]
     [SerializeField]
     private GameObject _startingScreen;
 

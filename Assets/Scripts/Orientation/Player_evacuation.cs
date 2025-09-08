@@ -7,6 +7,8 @@ using UnityEngine;
 
 public class Player_evacuation : MonoBehaviour
 {
+    [Tooltip("Reference to the Player_Room component that tracks the player's current room. " +
+             "This is used to update the next door in the evacuation path.")]
     [SerializeField]
     private Player_Room _playerRoom;
 

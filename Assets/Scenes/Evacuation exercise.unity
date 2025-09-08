@@ -3818,8 +3818,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _planeMaterial: {fileID: 2100000, guid: 799a3c970cd6250468a472e1e9c782bc, type: 2}
-  _defaultPlaneMaterial: {fileID: 2100000, guid: 3dfe05cc073a93b4c9d631caf17f79ab,
-    type: 2}
 --- !u!1001 &501641322
 PrefabInstance:
   m_ObjectHideFlags: 0
