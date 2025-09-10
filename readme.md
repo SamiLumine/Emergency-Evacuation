@@ -6,10 +6,9 @@ This project was created during an internship at **UiT The Arctic University of 
 The original idea was to build an application that helps users find the closest emergency exit based on their position inside the university building.  
 
 The scope was later redefined into a smaller version:  
-- Exit doors are placed manually.  
-- The system calculates a path through the doors.  
-- The shortest path is chosen.  
-- The application shows the user which doors to take.  
+- Doors are placed manually.  
+- The system uses an algorithm that explores the doors according to their links and defines the shortest path to an emergency exit.  
+- The application shows the user which doors to take. 
 
 ---
 
