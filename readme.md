@@ -22,13 +22,14 @@ The scope was later redefined into a smaller version:
 To deploy the project on the Meta Quest 3 headset:
 
 1. Make sure your headset is in **Developer Mode** (see [Meta documentation](https://developers.meta.com/horizon/documentation/native/android/mobile-device-setup/)).  
-2. Install the **Meta Quest Link app** on your PC to connect the headset.  
+2. In the headset settings (once in Developer Mode), **disable the Physical Space features**.
+3. Install the **Meta Quest Link app** on your PC to connect the headset.  
    > ⚠️ Do **not** set Meta Quest Link as the active OpenXR runtime!  
    > Instead, you must use **SteamVR** as the OpenXR runtime to run the project correctly.  
-3. Open the project with the correct Unity version.  
-4. Go to **Build Profiles** and select **Android**.  
-5. Check that the headset is detected under **Run Device**.  
-6. Click **Build And Run** to deploy the app to the headset.  
+4. Open the project with the correct Unity version.  
+5. Go to **Build Profiles** and select **Android**.  
+6. Check that the headset is detected under **Run Device**.  
+7. Click **Build And Run** to deploy the app to the headset.  
 
 ---
 
